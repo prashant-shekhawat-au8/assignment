@@ -1,0 +1,8 @@
+.section8{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid{
+    margin: 30px;
+}

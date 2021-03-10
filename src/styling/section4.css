@@ -1,0 +1,26 @@
+.section4{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+
+}
+
+.boy{
+    width: 315px;
+  height: 464px;
+  margin-top: 56px;
+ 
+  border-radius: 9px;
+  
+}
+
+.girl{
+    width: 657px;
+  height: 464px;
+  margin-top: 56px;
+  
+  border-radius: 9px;
+
+}

@@ -1,0 +1,12 @@
+.section7{
+    background-color: #5454d4;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 30px;
+
+}
+
+.buy{
+    margin-top: 40px;
+}

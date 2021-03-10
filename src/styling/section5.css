@@ -1,0 +1,38 @@
+.section5{
+    margin-top: 30px;
+    position: relative;
+}
+.bg{
+    height:700px;
+    width:100%
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.try{
+    width: 180px;
+    height: 24px;
+    margin: 8px 8px 0 19px;
+    padding: 15px 44px;
+    border-radius: 4.5px;
+    border: solid 0.9px #f0c931;
+    background-color: #fedc5a;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18.9px;
+    
+}
+
+.h1_{
+    color: white;
+}
+
+.p_{
+    color: white;
+}
