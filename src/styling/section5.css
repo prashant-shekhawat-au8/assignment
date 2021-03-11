@@ -2,6 +2,30 @@
     margin-top: 30px;
     position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+  .section5{
+    margin-top: 30px;
+    position: relative;
+    width:600px;
+    color:black;
+}
+.h1_{
+    color:black;
+}
+.p_{
+    color:black;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 183px;
+    margin-right:200px;
+    color:black;
+}
+}
+
 .bg{
     height:700px;
     width:100%

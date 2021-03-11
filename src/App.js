@@ -23,7 +23,7 @@ import headphone_4 from "./img/female/rectangle-copy.png";
 import headphone2x_4 from "./img/female/rectangle-copy@2x.png";
 import headphone3x_4 from "./img/female/rectangle-copy@3x.png";
 
-import {Row, Col,CardBody,CardImg,Spinner,CardLink } from 'reactstrap';
+import {Row, Col} from 'reactstrap';
 
 import svg1 from "./img/cards.svg";
 import svg2 from "./img/smartphone.svg";
@@ -44,9 +44,9 @@ class App extends React.Component {
  
   render() {
     return (
-      <div >
+      <div class="landing">
         
-        <div>
+        <div class="check_b">
           <button style={{margin:"20px"}}><Link to={"/formvalidation"}>Click here to see form validation</Link></button>
           <button style={{margin:"20px"}}><Link to={"/simplepage"}>Click here to see Simple Page</Link></button>
         </div>
@@ -205,18 +205,18 @@ class App extends React.Component {
             <p style={{marginBottom:"0px"}}> create custom landing page with Omegle that converts more visitors <br/> than any website. With lots of unique block u build a <br/>page without coding</p>
           </div>
           <div class="main_gb">
-            <div class="boy">
-            <picture >
+            <div >
+            <picture  >
                   <source media="(min-width:650px)" srcset={headphone3x_3}/>
                   <source media={"(min-width:465px)"} srcset={headphone2x_3}/>
-                  <img src={headphone_3} alt="Flowers" width="315" height="464"/>
+                  <img class="boy" src={headphone_3} alt="Flowers"/>
                 </picture>
           </div>
-          <div  class="girl">
-          <picture >
+          <div  >
+          <picture  >
                   <source media="(min-width:650px)" srcset={headphone3x_4}/>
                   <source media={"(min-width:465px)"} srcset={headphone2x_4}/>
-                  <img src={headphone_4} alt="Flowers" width="657" height="464"/>
+                  <img class="girl" src={headphone_4} alt="Flowers" />
                 </picture>
           </div>
           </div>

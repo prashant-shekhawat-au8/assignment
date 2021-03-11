@@ -9,15 +9,44 @@
 
 .boy{
   
- 
+  width:315px;
+   height:464px
    
-  
+   
 }
 
 .girl{
- 
+  width:657px;
+   height:464px
 }
 .main_gb{
   display: flex;
   margin-top: 56px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_gb{
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+}
+.section4{
+    height: 1200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: center;
+  
+
+}
+.boy{
+  width:315px;
+  height:464px
+}
+.girl{
+  width:315px;
+  height:464px;
+
+}
 }

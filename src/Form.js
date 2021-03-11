@@ -60,7 +60,7 @@ export default function Form() {
             placeholder="Full Name"
           />
           {formik.errors.full_name && formik.touched.full_name && (
-            <p>{formik.errors.full_name}</p>
+            <p style={{color:"red"}}>{formik.errors.full_name}</p>
           )}
         </div>
         <div>
@@ -73,7 +73,7 @@ export default function Form() {
             placeholder="Email"
           />
           {formik.errors.email && formik.touched.email && (
-            <p>{formik.errors.email}</p>
+            <p style={{color:"red"}}>{formik.errors.email}</p>
           )}
         </div>
         <div>
@@ -86,7 +86,7 @@ export default function Form() {
             placeholder="password"
           />
           {formik.errors.password && formik.touched.password && (
-            <p>{formik.errors.password}</p>
+            <p style={{color:"red"}}>{formik.errors.password}</p>
           )}
         </div>
         <div>
@@ -99,7 +99,7 @@ export default function Form() {
             placeholder="Confirm Password"
           />
           {formik.errors.confirm_password && formik.touched.confirm_password && (
-            <p>{formik.errors.confirm_password}</p>
+            <p style={{color:"red"}}>{formik.errors.confirm_password}</p>
           )}
         </div>
         <div class="term">

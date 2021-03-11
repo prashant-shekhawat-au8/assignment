@@ -4,7 +4,23 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+@media only screen and (max-width: 600px) {
+  .section3{
+    background-color: #413e65;
+    height: 1100px;
+    width:600px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 
+}
+}
 .first_section3{
     font-size: 54px;
     font-weight: bold;
