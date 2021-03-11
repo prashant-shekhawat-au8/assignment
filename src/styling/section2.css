@@ -1,19 +1,40 @@
 .section2{
     height: 700px;
-    margin: 70px 0 70px 0;
+    margin: 108.2px 0 0 0;
     display: flex;
     justify-content: center;
     
 }
 
 .enjoy1{
-    color: black;
-    font-size: 54px;
+  width: 436px;
+  height: 126px;
+  margin: 0 31px 20px 0;
+  word-spacing: 2px;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: #19191b;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .para1{
-    color:#696871;
-    font-size: 18.6px;
+  width: 464px;
+  height: 105px;
+  margin: 20px 0 37px 3px;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #696871;
+  word-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .content{
     margin-right: 80px;
@@ -21,15 +42,17 @@
 
 .svg1{
     width: 323px;
-    height: 86px;
+   
     margin: 0 1px 0 0;
-    padding: 18px 255px 18px 18px;
+   
     border-radius: 9px;
     border: solid 0.9px #eae9f2;
     background-color: #ffffff;
     margin-bottom: 10px;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .svg2{
     width: 323px;
     height: 86px;
@@ -42,13 +65,13 @@
 }
 
 .svg1_here{
-    background-color: rgba(240, 64, 55, 0.1);
-    width: 25px;
-    height: 25px;
-    padding: 10px 10px 10px 10px;
-    justify-content: center;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    background-color: rgba(240, 64, 55, 0.1);
+    margin: 18px ;
 }
+
 .svg2_here{
     background-color: rgba(84, 84, 212, 0.1);
     width: 25px;
@@ -61,4 +84,24 @@
 
 .third_div{
     color: #19191b;
+}
+
+.cards1{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  padding:15px 15px 15px 15px; 
+}
+
+.svg1_here1{
+    margin-top: 4px;
+    padding: 18px;
+    align-items: center;
+}
+
+.fifty{
+    font-weight: bold;
+}
+.third_div{
+    color: #696871;
 }

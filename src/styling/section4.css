@@ -8,19 +8,16 @@
 }
 
 .boy{
-    width: 315px;
-  height: 464px;
-  margin-top: 56px;
+  
  
-  border-radius: 9px;
+   
   
 }
 
 .girl{
-    width: 657px;
-  height: 464px;
+ 
+}
+.main_gb{
+  display: flex;
   margin-top: 56px;
-  
-  border-radius: 9px;
-
 }

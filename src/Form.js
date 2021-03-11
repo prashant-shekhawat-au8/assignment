@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./styling/form.css";
 
 import { useFormik } from "formik";
@@ -31,6 +31,17 @@ export default function Form() {
       alert(JSON.stringify(values, null, 2));
     }
   });
+
+ const [agree, setAgree] = useState(false);
+
+  const checkboxHandler = () => {
+   
+    setAgree(!agree);
+   
+  }
+
+  
+ 
 
   return (
     <div className="App">
@@ -92,11 +103,11 @@ export default function Form() {
           )}
         </div>
         <div class="term">
-            <div><input type="checkbox"/></div>
-            <div class="condition">I agree to<span> Terms and Condition</span></div>
+            <div><input type="checkbox" id="agree" onChange={checkboxHandler}/></div>
+            <label class="condition" htmlFor="agree">I agree to<span> Terms and Condition</span></label>
             </div>
         <div>
-          <button class="button2" type="submit">Submit</button>
+          <button class="button2" type="submit" disabled={!agree} className="btn" >Submit</button>
         </div>
       </form>
     </div>

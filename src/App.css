@@ -1,45 +1,93 @@
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+@font-face {font-family: "Circular Std Book"; src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot"); src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff") format("woff"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book") format("svg"); }
 
 body{
   width:1440px
 }
 .section1 {
-  background-color:#5454d4;
-  padding-bottom: 100px;
+  width: 1440px;
+  height: 864px;
+  margin: 0 0 133.2px;
+  padding: 21px 25px 0 32px;
+  background-color: #5454d4;
 }
 .section1a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0 10px 0 0;
   color: white;
   
 }
 
 .omega{
+  width: 71px;
+  height: 28px;
+  margin: 0 0 1px 0;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 21.6px;
   font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.68px;
+  word-spacing: 2px;
+  color: #ffffff;
 }
 
-.three_a{
-  background-color:#5454d4;
-  color: white;
-  padding-left: 10px;
-  font-size: 14.4px;
 
-}
 
 .cart{
+  display: flex;
+  justify-content: center;
+   width: 27px;
+  height: 18px;
+  margin: 0 0px 4px 0;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  word-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .cart_button{
-  margin-left: 10px;
-  border-radius: 50%;
-  border-color: #fedc5a ;
-  background-color:#fedc5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin: 1px 2px 1px 1px;
+  border-radius: 20.3px;
+  background-color: #fedc5a;
+  
 
 }
+.cart_button1{
+  width: 28px;
+  height: 18px;
+  margin: 3px 0 4px;
+  font-family: CircularStd;
+  font-size: 14.4px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.79);
+  font-weight: bold;
 
+}
+.cartW{
+  margin-top: 5px;
+  margin-right: 5px;
+}
 .section1b{
   display: flex;
   flex-direction: row;
@@ -49,16 +97,40 @@ body{
 
 .headphone{
   margin-right: 100px;
+  width: 352px;
+  height: 570px;
+
+
 }
 
 .enjoy{
-  color: white;
+  width: 536px;
+  height: 126px;
+  margin: 69px 0 14px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: #ffffff;
+  word-spacing: 2px;
 }
 
 .para{
+  width: 482px;
+  height: 70px;
+  margin: 14px 51px 29px 3px;
+  font-family: Arial, "Courier New", monospace;
+  font-size: 18.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  word-spacing: 2px;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 18.6px;
 }
 
 .numeric{
@@ -67,38 +139,39 @@ body{
 }
 
 .price{
-  
-    width: 370px;
-    height: 120px;
-    margin: 10px 243px 19px 3px;
-    border-radius: 9px;
-    background-color: #6565e9;
-  
+  width: 290px;
+  height: 118px;
+  margin: 30px 243px 19px 3px;
+  border-radius: 9px;
+  background-color: #6565e9;
 }
 
 .doller_price{
   width: 118px;
   height: 81px;
-  margin: 0 12px 0 10px;
-  font-family: CircularStd;
+  margin: 0 12px 0 20px;
+  font-family:Arial, "Courier New", monospace;
   font-size: 54px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: -1.69px;
+  word-spacing: 2px;
   color: #ffffff;
+  margin-left: 20px;
+
 }
 
 .save {
   width: 122px;
   height: 34px;
-  padding: 8px 9px 8px 13px;
+  padding: 8px 9px 8px 12px;
   border-radius: 4.5px;
   background-color: #77bf41;
-  width: 100px;
+  width: 103px;
   height: 18px;
-  font-family: CircularStd;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14.4px;
   font-weight: bold;
   font-stretch: normal;
@@ -107,10 +180,22 @@ body{
   letter-spacing: -0.45px;
   color: #ffffff;
   margin-top: 20px;
+  
 }
 
 .original{
-  margin-top: 10px;
+  width: 151px;
+  height: 81px;
+  margin: -29px 101px 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18.9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.29;
+  letter-spacing: -0.83px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 20px;
 }
 
 .two_buttons{
@@ -127,6 +212,8 @@ body{
   text-align: center;
   font-weight: bold;
   font-size: 18.9px;
+  font-family: Arial, Helvetica, sans-serif;
+
   
 }
 
@@ -139,5 +226,58 @@ body{
   text-align: center;
   font-weight: bold;
   font-size: 18.9px;
+  display: flex;
+  justify-content: space-between;
 }
 
+#main{
+  width: 1440px;
+  height: 864px;
+  margin: 0 0 133.2px;
+  padding: 21px 25px 123px 32px;
+  background-color: #5454d4;
+}
+
+.three{
+  width: 195px;
+  height: 18px;
+  margin: 6px 531px 5px 520px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.4px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  word-spacing: 2px;
+}
+
+.three_a1{
+  color: white;
+}
+.plus_minus{
+  font-weight: 900;
+  width: 24px;
+  height: 52px;
+  border-radius: 0 4.5px 4.5px 0;
+  padding: 2px 2px 0 0;
+  background-color: #eae9f2;
+ 
+}
+
+.one{
+  width: 7px;
+  height: 24px;
+  margin: 15px 26px 14px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18.9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.59px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.79);
+}
