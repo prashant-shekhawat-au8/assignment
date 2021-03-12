@@ -5,13 +5,13 @@ import svg4 from "./img/shape.svg"
 export default class Simple_page extends Component {
     render() {
         return (
-            <div>
+            <div >
                 <div class="cointainer">
                     <div class="sub_cointainer1">
-                        <h1>Omega</h1>
+                        <div class="om5">Omega</div>
                         </div>
                     <div class="sub_cointainer2">
-                        <a>Demos</a>
+                        <a class="dem">Demos</a>
                         <a>Pages</a>
                         <a>Support</a>
                         <button class="button2">Get Started</button>
@@ -20,18 +20,20 @@ export default class Simple_page extends Component {
                 </div>
                 <div class="cointainer2">
                     <div class="like">
-                       <img src={svg4}/>
+                        <div>
+                       <img class="img_" src={svg4}/>
+                       </div>
                     </div>
-                    <div><h1>Thankyou</h1></div>
-                    <div><p>Create custom landing Pages with omegas that converts  <br/> more visitor that any website </p></div>
+                    <div class="thankyou1">Thankyou! </div>
+                    <div class="para11"><p class="para12">Create custom landing Pages with omegas that converts  <br/> more visitor that any website </p></div>
                     <div>
-                        <button class="button3">Go Back Home</button>
+                        <button class="button3" style={{font:"50px"}}>Go Back Home</button>
                     </div>
 
                 </div>
                 <div class="cointainer3">
                     <div>
-                        <h1>Omega</h1>
+                        <div class="omg3">Omega</div>
 
                     </div>
                     <div>
@@ -59,6 +61,11 @@ export default class Simple_page extends Component {
                         <p>Carrier </p>
                         <p>Frelancer</p>
                     </div>
+                </div>
+                <div class="cointainer4">
+                <div>@2020 UXTheme, All Rights Reserved</div>
+                <div>
+                </div>
                 </div>
             </div>
         )

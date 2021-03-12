@@ -72,13 +72,13 @@ class App extends React.Component {
                 <picture>
                   <source media="(min-width:650px)" srcset={headphone3x}/>
                   <source media={"(min-width:465px)"} srcset={headphone2x}/>
-                  <img src={headphone} alt="Flowers" width="352" height="570"/>
+                  <img class="img_h1" src={headphone} alt="Flowers" />
                 </picture>
                  
                 </div>
-                <div> 
-                  <h4 class="enjoy">Enjoy every single<br/> beat on headphone! </h4>
-                  <p class="para">For iPhone, iPad and Android users be sure your products<br/> firmware updated through the Boss connect App </p>
+                <div class="enjoy_pre"> 
+                  <div class="enjoy">Enjoy every single<br/> beat on headphone! </div>
+                  <div class="para">For iPhone, iPad and Android users be sure your products<br/> firmware updated through the Boss connect App </div>
                   <div class="price">
                     <div class="numeric">
                       <div class="doller_price">$299</div>
@@ -104,8 +104,8 @@ class App extends React.Component {
         </div>
         <div class="section2">
           <div class="content">
-          <h4 class="enjoy1">Get noise free  <br/> sound EveryTime </h4>
-          <p class="para1">Create custom landing page with Omega  that converts<br/> more visitors than any websites.With lots of unique blocks<br/>you can eaisly build a page without coding </p>
+          <div class="enjoy1">Get noise free  <br/> sound EveryTime </div>
+          <div class="para1">Create custom landing page with Omega  that converts<br/> more visitors than any websites.With lots of unique blocks<br/>you can eaisly build a page without coding </div>
           <div class="svg1">
             <div class="svg1_here">
             <img src={svg1} class="cards1"/>
@@ -126,10 +126,10 @@ class App extends React.Component {
           </div>
           </div>
           <div >
-          <picture class="second_">
+          <picture >
                   <source media="(min-width:650px)" srcset={headphone3x_2}/>
                   <source media={"(min-width:465px)"} srcset={headphone2x_2}/>
-                  <img src={headphone_2} alt="Flowers" width="510" height="450"/>
+                  <img class="img_h" src={headphone_2} alt="Flowers" />
                 </picture>
            
           </div>
@@ -199,9 +199,9 @@ class App extends React.Component {
          
         <div class="section4"> 
           <div>
-            <div class="music">Enter Your Music</div>
+            <div class="music ">Enter Your Music</div>
           </div>
-          <div class="para4">
+          <div class="para4 ">
             <p style={{marginBottom:"0px"}}> create custom landing page with Omegle that converts more visitors <br/> than any website. With lots of unique block u build a <br/>page without coding</p>
           </div>
           <div class="main_gb">
@@ -269,7 +269,7 @@ class App extends React.Component {
         </div>
 
         <div class="section7">
-          <div class="beat">Enjoy every beat. <br/>Get a new headphone</div>
+          <div class="beat">Enjoy every beat.<br/>Get a new headphone</div>
           <div class="try buy"> Buy Now</div>
         </div>
 

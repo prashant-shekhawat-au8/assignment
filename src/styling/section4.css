@@ -31,8 +31,8 @@
   margin-top: 56px;
 }
 .section4{
-    height: 1200px;
-    width: 600px;
+    height: 900px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -41,12 +41,16 @@
 
 }
 .boy{
-  width:315px;
-  height:464px
+  width:215px;
+  height:164px;
 }
 .girl{
-  width:315px;
-  height:464px;
+  width:215px;
+  height:264px;
 
+}
+.music{
+  width:375px;
+  height:130px
 }
 }

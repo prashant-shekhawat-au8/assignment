@@ -9,8 +9,7 @@ export default function Form() {
     initialValues: {
       full_name: "",
       email: "",
-      password: "",
-      confirm_password: ""
+      password: ""
     },
     validationSchema: Yup.object({
       full_name: Yup.string()
@@ -22,9 +21,6 @@ export default function Form() {
         .required("Required!"),
       password: Yup.string()
         .min(8, "Minimum 8 characters")
-        .required("Required!"),
-      confirm_password: Yup.string()
-        .oneOf([Yup.ref("password")], "Password's not match")
         .required("Required!")
     }),
     onSubmit: values => {
@@ -45,12 +41,12 @@ export default function Form() {
 
   return (
     <div className="App">
-      
-
+      <div class="one_omega">Omega</div>
+      <div>
       <form onSubmit={formik.handleSubmit} class="form">
-        <div>
-        <h1>Sign UP</h1>
-        <p >No Crdits Card Required</p>
+        <div class="">
+        <div  class="heading">Sign Up</div>
+        <div  class="para9">No Credits Card Required</div>
           
           <input
             type="text"
@@ -89,27 +85,21 @@ export default function Form() {
             <p style={{color:"red"}}>{formik.errors.password}</p>
           )}
         </div>
-        <div>
-          
-          <input
-            type="password"
-            name="confirm_password"
-            value={formik.values.confirm_password}
-            onChange={formik.handleChange}
-            placeholder="Confirm Password"
-          />
-          {formik.errors.confirm_password && formik.touched.confirm_password && (
-            <p style={{color:"red"}}>{formik.errors.confirm_password}</p>
-          )}
-        </div>
+        
         <div class="term">
             <div><input type="checkbox" id="agree" onChange={checkboxHandler}/></div>
-            <label class="condition" htmlFor="agree">I agree to<span> Terms and Condition</span></label>
+            <label class="condition" htmlFor="agree"><div class="iagree"><span >I agree to</span><span class="grey"> Terms and Condition</span></div></label>
             </div>
         <div>
-          <button class="button2" type="submit" disabled={!agree} className="btn" >Submit</button>
+          <button class="button2" type="submit" disabled={!agree} >Get Started
+          </button>
         </div>
+        <div class="term" class="term1">
+            <label class="condition" htmlFor="agree"><span >Already have an account?</span><span class="grey">Sign In</span></label>
+        </div>
+        
       </form>
+      </div>
     </div>
   );
 }

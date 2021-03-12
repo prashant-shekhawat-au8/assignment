@@ -1,6 +1,7 @@
 .cointainer{
     display: flex;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sub_cointainer2{
@@ -27,12 +28,12 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70px;
+    
     
 }
 
 .button3{
-    width: 250px;
+  width: 250px;
   height: 60px;
   margin: 39px 675px 142px;
   padding: 17px 24px 16px 25px;
@@ -40,12 +41,21 @@ a{
   border: solid 1px #c31a12;
   background-color: white;
   color: #c31a12;
+  font-weight:bolder;
+  font:21px;
 }
 
 .like{
-    background-color: #5454d4;
-    padding: 30px 30px 30px 30px;
+   display:flex;
+   flex-direction:column;
+
+   
     border-radius: 50%;
+    width: 118px;
+  height: 118px;
+  margin: 142px 741px 48px;
+
+  background-color: #5454d4;
 }
 
 .cointainer3{
@@ -54,4 +64,83 @@ a{
     background-color: #19191b;
     color: white;
     padding: 20px;
+    padding: 115px 245px 115px 245px;
+    
+    
 }
+
+.dem{
+    color:#5454d4;
+}
+
+.thankyou1{
+    width: 526px;
+  height: 4px;
+  margin: 0 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: -2.5px;
+  text-align: center;
+  color: #19191b;
+}
+
+.om5{
+    width: 79px;
+  height: 30px;
+  margin: 6px 1073px 9px 0;
+  
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  color: #19191b;
+}
+
+.img_{
+    width: 50px;
+  height: 46px;
+  margin:34px;
+  
+  
+}
+
+.para11{
+    margin-top:100px;
+}
+
+.para12{
+    width: 515px;
+  height: 78px;
+  margin: 0 5px 0 6px;
+  font-family: CircularStd;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.66px;
+  text-align: center;
+  color: #696871;
+}
+
+.omg3{
+  width: 79px;
+  height: 30px;
+  margin: 10px 133px 231px 0;
+  font-family: CircularStd;
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.75px;
+  color: #ffffff;
+}
+
+
